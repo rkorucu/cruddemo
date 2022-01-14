@@ -48,6 +48,7 @@ public class EmployeeRestController {
         // this is to force a save of new item ... instead of update
 
         theEmployee.setId(0);
+        System.out.println("Add sout for testing github 1");
         System.out.println("Add sout for testing github 2");
         employeeService.save(theEmployee);
 
