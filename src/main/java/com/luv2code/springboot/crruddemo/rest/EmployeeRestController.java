@@ -50,6 +50,8 @@ public class EmployeeRestController {
         theEmployee.setId(0);
         System.out.println("Add sout for testing github 1");
         System.out.println("Add sout for testing github 2");
+        System.out.println("Add sout for testing github 3");
+        System.out.println("Add sout for testing github 4");
         employeeService.save(theEmployee);
 
         return theEmployee;
